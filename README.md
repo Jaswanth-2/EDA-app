@@ -19,3 +19,37 @@ upload page.py: Handles file uploads and data session management.
 dashboard.py: Contains the core logic for the automated dashboard, including data type detection, KPI generation, and chart creation.
 preview.py: Manages the data preview and automated EDA report generation.
 advanced visualization.py: Implements the custom, drag-and-drop dashboard builder.
+
+
+
+Installation
+To run this application, you will need to have Python and the required libraries installed.
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+Create a virtual environment (recommended):
+
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+pip install -r requirements.txt
+
+
+
+How to Run
+
+Start the Streamlit application from your terminal:
+
+streamlit run "upload page.py"
+The application will open in your web browser. You can then navigate between the different pages (upload page.py, dashboard.py, preview.py) to access the various features.
+
+Upload Data: Go to the "Upload Your Dataset" page (upload page.py) and upload a supported file.
+
+View Preview & Summary: Navigate to the preview.py page to see a data preview, download cleaned versions, and view the automated EDA report.
+
+Explore Dashboard: Head to the "Smart Auto-Generated Dashboard" (dashboard.py) to see automated visualizations and KPIs. Use the sidebar to apply filters or change visualization settings.
+
+Build Custom Dashboard: Visit the advanced visualization.py page to create your own dashboard by adding different charts.
+
